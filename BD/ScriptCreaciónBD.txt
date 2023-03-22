@@ -1,0 +1,7 @@
+mongosh
+use SalasREST
+db.createCollection("edificios");
+db.createCollection("salas");
+db.createCollection("mobiliario");
+db.createCollection("reservas");
+
