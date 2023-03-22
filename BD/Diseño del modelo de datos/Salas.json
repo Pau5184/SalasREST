@@ -1,0 +1,8 @@
+{
+    "id":"<ObjectID>",
+    "nombreSala":"<String>",
+    "descripcion":"<String>",
+    "estatus":"<String>",
+    "capacidad":"<int>",
+    "edificio":"<int>"
+}

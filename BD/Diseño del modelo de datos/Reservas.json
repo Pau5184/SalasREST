@@ -1,0 +1,8 @@
+{
+    "id":"<ObjectID>",
+    "horaInicio":"<String>",
+    "horaFin":"<String>",
+    "fecha":"<Date>",
+    "estatus":"<String>",
+    "sala":"<int>"
+}
