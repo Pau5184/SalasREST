@@ -1,5 +1,5 @@
 {
-    "id": "<ObjectID>",
+    "idEdificio": "<ObjectID>",
     "nombreEdificio": "<String>",
     "descripcion": "<String>"
 }

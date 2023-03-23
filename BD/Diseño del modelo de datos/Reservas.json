@@ -1,5 +1,5 @@
 {
-    "id":"<ObjectID>",
+    "idReserva":"<ObjectID>",
     "horaInicio":"<String>",
     "horaFin":"<String>",
     "fecha":"<Date>",

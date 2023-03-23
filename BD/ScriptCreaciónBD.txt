@@ -1,5 +1,11 @@
+---En la terminal correr el servidor:
+mongod
+
+---En otra terminal correr:
 mongosh
+-Crear la Base de Datos
 use SalasREST
+-Crear las colecciones edificios, salas, mobiliario y reservas
 db.createCollection("edificios");
 db.createCollection("salas");
 db.createCollection("mobiliario");
