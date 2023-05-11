@@ -1,8 +1,11 @@
 {
-    "idReserva":"<ObjectID>",
+    "id":"<ObjectID>",
+    "tipo":"<string>",
+    "motivo":"<String>",
     "horaInicio":"<String>",
     "horaFin":"<String>",
-    "fecha":"<Date>",
+    "fechaInicio":"<Date>",
+    "fechaFin":"<Date>",
     "estatus":"<String>",
-    "sala":"<int>"
+    "sala":"ref(Salas)"
 }

@@ -1,8 +1,16 @@
 {
-    "idSala":"<ObjectID>",
+    "id":"<ObjectID>",
     "nombreSala":"<String>",
     "descripcion":"<String>",
     "estatus":"<String>",
     "capacidad":"<int>",
-    "edificio":"<int>"
+    "edificio":"ref(Edificios)",
+    "mobiliario":[
+        {
+            "idMobiliario":"<ObjectID>",
+            "nombre":"<String>",
+            "descripcion":"<String>",
+            "cantidad":"<int>"
+        }
+    ]
 }

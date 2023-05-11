@@ -1,5 +1,6 @@
 {
-    "idEdificio": "<ObjectID>",
+    "id": "<ObjectID>",
     "nombreEdificio": "<String>",
-    "descripcion": "<String>"
+    "descripcion": "<String>",
+    "estatus": "<String>"
 }

@@ -1,7 +1,0 @@
-{
-    "idMobiliario":"<ObjectID>",
-    "nombre":"<String>",
-    "descripcion":"<String>",
-    "cantidad":"<int>",
-    "sala":"<int>"
-}
