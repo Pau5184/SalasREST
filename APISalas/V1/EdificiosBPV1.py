@@ -1,5 +1,5 @@
 from flask import Blueprint, request
-from V1.model import Conexion
+from V1.modelEdificios import Conexion
 
 edificiosBP=Blueprint('EdificiosBP',__name__)
 
