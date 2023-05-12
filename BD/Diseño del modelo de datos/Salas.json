@@ -7,7 +7,7 @@
     "edificio":"ref(Edificios)",
     "mobiliario":[
         {
-            "idMobiliario":"<ObjectID>",
+            "numModelo":"String",
             "nombre":"<String>",
             "descripcion":"<String>",
             "cantidad":"<int>"
