@@ -111,7 +111,7 @@ class Conexion():
         resp={"estatus":"","mensaje":""}
         sala=self.db.Salas.find_one({"_id":ObjectId(id),"estatus":"Activo"})
         if sala:
-            mobiliario=self.db.Salas.find_one({"mobiliario":{ "$elemMatch": { "numModelo": data["numModelo"]}}})
+            mobiliario=self.db.Salas.find_one({"mobiliario":{ "$elemMatch": {"numModelo": data["numModelo"]}}})
             if mobiliario:
                 resp["estatus"]="ERROR"
                 resp["mensaje"]="El mobiliario ya existe en la sala"
