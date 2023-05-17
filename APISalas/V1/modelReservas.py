@@ -213,3 +213,10 @@ class Conexion():
             resp["estatus"]="ERROR"
             resp["mensaje"]="La reserva no existe o ya está cancelada o finalizada"
         return resp
+
+    def validarCredenciales(self,usuario,password):
+        user=self.db.Usuarios.find_one({"email":usuario,"password":password,"estatus":"A"})
+        if user:
+            return user
+        else:
+            return None

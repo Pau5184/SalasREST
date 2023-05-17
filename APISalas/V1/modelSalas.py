@@ -157,3 +157,10 @@ class Conexion():
             resp["estatus"]="ERROR"
             resp["mensaje"]="La sala no existe o está inactiva"
         return resp
+    
+    def validarCredenciales(self,usuario,password):
+        user=self.db.Usuarios.find_one({"email":usuario,"password":password,"estatus":"A"})
+        if user:
+            return user
+        else:
+            return None
